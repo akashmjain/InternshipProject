@@ -12,3 +12,5 @@ project name as of now is Web Comparison and Opinion mining.
   * after pushing create a pull request to me i will merge those changes with a main dev branch
 
   * and hopfully project will be dont in a time
+  
+  * Testing for demo
