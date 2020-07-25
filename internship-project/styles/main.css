@@ -1,0 +1,78 @@
+body {
+	background-color : #d4dee4;
+}
+
+.header_container
+{
+	width: 100%;
+	background: #FFFFFF;
+}
+.header_content
+{
+	height: 90px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+.main_nav li.active a {
+	color : #45fe67
+}
+
+.main_nav li
+{
+	display: inline-block;
+	position: relative;
+}
+.main_nav li:not(:last-child)
+{
+	margin-right: 44px;
+}
+.main_nav li a
+{
+	font-size: 18px;
+	font-weight: 500;
+	color: #384158;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.main_nav li a:hover,
+.main_nav li.active a
+{
+	color: #ffba00;
+}
+.main_nav li.active::after
+{
+	display: block;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #FFBA00;
+	content: '';
+}
+
+.header_search {
+	margin-left : 27%;
+	margin-top : 3%;
+	font : 9em 'Abhaya Libre', sans-serif;
+}
+
+.text_logo {
+	color : #626262;
+}
+
+.btn {
+	background : #4f748c;
+	color : #ffffff;
+}
+
+.btn:hover {
+	background : #009900;
+}
